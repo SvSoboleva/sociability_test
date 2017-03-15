@@ -45,6 +45,4 @@ class Test
   def end_of_test?
     @current_question == @questions.size
   end
-
-
 end

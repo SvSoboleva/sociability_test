@@ -1,8 +1,7 @@
 class Test
   attr_reader :total
 
-  def initialize
-    current_path = File.dirname(__FILE__)
+  def initialize(current_path)
     file_questions = current_path + '/data/questions.txt'
 
     if File.exist?(file_questions)

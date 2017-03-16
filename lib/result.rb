@@ -1,6 +1,5 @@
 class Result
-  def initialize
-    current_path = File.dirname(__FILE__)
+  def initialize(current_path)
     file_results = current_path + '/data/results.txt'
 
     if File.exist?(file_results)

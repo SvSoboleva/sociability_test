@@ -6,4 +6,5 @@
 
 и пройти тест!
 
-Источник информации о тестовых данных - http://www.syntone-spb.ru/library/article_syntone/content/4969.html
+Источник информации о тестовых данных -
+<a href = "http://www.syntone-spb.ru/library/article_syntone/content/4969.html">Тесты на общительность</a> 

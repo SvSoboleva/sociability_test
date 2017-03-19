@@ -1,17 +1,8 @@
 class Test
   attr_reader :total
 
-  def initialize(current_path)
-    file_questions = current_path + '/data/questions.txt'
-
-    if File.exist?(file_questions)
-      # puts "Открыли файл : #{file_path}"
-      file = File.new(file_questions, "r:UTF-8")
-      @questions = file.readlines
-      file.close
-    else
-      abort "Файл #{file_questions} не найден"
-    end
+  def initialize(questions_array)
+    @questions = questions_array
 
     @answer = '
     1. да

@@ -1,15 +1,6 @@
 class Result
-  def initialize(current_path)
-    file_results = current_path + '/data/results.txt'
-
-    if File.exist?(file_results)
-      #puts "Открыли файл : #{file_path}"
-      file = File.new(file_results, "r:UTF-8")
-      @results = file.readlines
-      file.close
-    else
-      abort "Файл #{file_results} не найден"
-    end
+  def initialize(results_array)
+     @results = results_array
   end
   
   def print_result(test)

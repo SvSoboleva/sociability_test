@@ -5,17 +5,10 @@ class FileReader
   end
 
   def exist?
-    if File.exist?(@file_path)
-      true
-    else
-      abort "Файл #{file_path} не найден"
-    end
+    File.exist?(@file_path)
   end
 
   def to_array
-    file = File.new(@file_path, "r:UTF-8")
-    array_from_file = file.readlines
-    file.close
-    array_from_file
+    File.readlines(@file_path, encoding: 'UTF-8')
   end
 end

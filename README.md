@@ -2,7 +2,7 @@
 
 ```
 
-$ruby sociability_test.rb
+$ ruby sociability_test.rb
 
 ```
 
@@ -10,7 +10,7 @@ $ruby sociability_test.rb
 
 ```
 
-$ruby sociability_test.rb <Ваше имя>
+$ ruby sociability_test.rb <Ваше имя>
 
 ```
 

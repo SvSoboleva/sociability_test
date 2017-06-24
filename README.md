@@ -1,8 +1,18 @@
 Тест на общительность. 
-> ruby sociability_test.rb 
+
+```
+
+$ruby sociability_test.rb
+
+```
 
 или, Вы можете указать свое имя  
-> ruby sociability_test.rb <Ваше имя>
+
+```
+
+$ruby sociability_test.rb <Ваше имя>
+
+```
 
 и пройти тест!
 
